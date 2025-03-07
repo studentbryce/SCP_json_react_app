@@ -3,7 +3,7 @@
         "title": "SCP-002",
         "object_class": "Euclid",
         "image": {
-            "src": "/src/assets/800px-SCP002.jpg",
+            "src": "800px-SCP002.jpg",
             "alt": "SCP-002"
         },
         "special_containment_procedures": [
@@ -31,7 +31,7 @@
         "title": "SCP-003",
         "object_class": "Euclid",
         "image": {
-            "src": "/src/assets/SCP003_2.jpg",
+            "src": "SCP003_2.jpg",
             "alt": "SCP-003"
         },
         "special_containment_procedures": [
@@ -72,7 +72,7 @@
         "title": "SCP-004",
         "object_class": "Euclid",
         "image": {
-            "src": "/src/assets/SCP004_door.jpg",
+            "src": "SCP004_door.jpg",
             "alt": "SCP-004"
         },
         "special_containment_procedures": ["When handling items SCP-004-2 through SCP-004-13, proper procedure is vital. The items are not permitted to be moved off-site unless accompanied by two Level 4 security personnel. Under no circumstances should any other component of SCP-004 be taken through SCP-004-1. The effects of doing so are as yet unknown, and the current cost of experimentation makes further research impractical. Should any of the objects contained within SCP-004-1 breach containment, or the facility be breached, the keys must be brought inside and the door closed prior to activation of Site 62's on-site warhead. Unauthorized removal of keys from the testing area is grounds for immediate termination.",
@@ -155,7 +155,7 @@
         "title": "SCP-005",
         "object_class": "Safe",
         "image": {
-            "src": "/src/assets/SCP-005.jpg",
+            "src": "SCP-005.jpg",
             "alt": "SCP-005"
         },
         "special_containment_procedures": "SCP-005 poses no immediate risk in any direct sense. Even so, its unique functions require special measures be taken to restrict access and manipulation of the object. Approval of at least one (1) Level 4 personnel is required for the removal of the object from its containment area.",
@@ -167,7 +167,7 @@
         "title": "SCP-006",
         "object_class": "Safe",
         "image": {
-            "src": "/src/assets/SCP006_2.jpg",
+            "src": "SCP006_2.jpg",
             "alt": "SCP-006"
         },
         "special_containment_procedures": [
