@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/SCP_json_react_app/static/css/main.f0c63ba5.css",
+    "main.js": "/SCP_json_react_app/static/js/main.7e8585ca.js",
+    "static/media/SCP_Header.png": "/SCP_json_react_app/static/media/SCP_Header.49e4c6f326983824ae21.png",
+    "static/media/SCP_Archives.jpg": "/SCP_json_react_app/static/media/SCP_Archives.6396af5f3d9e42fdbe70.jpg",
+    "index.html": "/SCP_json_react_app/index.html",
+    "main.f0c63ba5.css.map": "/SCP_json_react_app/static/css/main.f0c63ba5.css.map",
+    "main.7e8585ca.js.map": "/SCP_json_react_app/static/js/main.7e8585ca.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f0c63ba5.css",
+    "static/js/main.7e8585ca.js"
+  ]
+}
