@@ -8,6 +8,11 @@ const Card = ({ data }) => {
   // Find the item based on the title from the route
   const selectedItem = data.find((i) => i.title === id);
 
+  // Directly use path from `public/images/`
+  const getImagePath = (imageName) => {
+    return `/SCP_json_react_app/images/${imageName}`;  // Direct path from `public/images/`
+  };
+
   if (!selectedItem) return <div>Item not found</div>;
 
   return (
@@ -16,7 +21,7 @@ const Card = ({ data }) => {
       <h3>Object Class: {selectedItem.object_class}</h3>
 
       {/* Display Image */}
-      {selectedItem.image && <img src={selectedItem.image.src} alt={selectedItem.image.alt} className="scp-image" />}
+      {selectedItem.image && <img src={getImagePath(selectedItem.image)} alt={selectedItem.title} className="scp-image" />}
 
       {/* Special Containment Procedures */}
       <h3>Special Containment Procedures:</h3>
@@ -80,11 +85,12 @@ const HistorySection = ({ history }) => (
       {Object.values(history).map((entry, index) => (
         <ul key={index}>
           <strong>Date:</strong> {entry.date} <br />
-          <strong>Event:</strong> {entry.event} <br /><br/>
+          <strong>Event:</strong> {entry.event} <br /><br />
         </ul>
       ))}
     </ul>
   </>
 );
 
-export default Card;  // Change this line to export default
+export default Card;
+
